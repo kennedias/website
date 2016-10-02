@@ -1,0 +1,103 @@
+html {
+    font-family: 'ABeeZee', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 12px;
+    padding-top: 12px;
+}
+
+.logo {
+    max-width: 120px;
+}
+
+img {
+    width: 100%;
+}
+
+.main-navigation {
+    align-self: flex-end;
+}
+
+.main-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: orange;
+}
+
+.main-navigation a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333333;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+}
+
+.main-navigation a:hover {
+    background-color: #333333;
+    color: #eeeeee;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container {
+    width: 960px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.column {
+    flex: 1 0 0;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+.column h3 {
+    padding-right: 50px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: orange;
+    height: 60px;
+    margin: 10px;
+}
+
+footer img {
+    width: 15%;
+}
+
+.searchBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 40px;
+    background-color: lightgray;
+    padding: 3px;
+    margin: 3px;
+}
+
+.searchBar input {
+    height: 25px;
+    width: 500px;
+    margin: 5px;
+}
